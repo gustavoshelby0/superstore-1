@@ -12,11 +12,11 @@ O time de dados desempenhará um papel importante na criação desses indicadore
 
 # Premissas da análise
 
-Dados de 100.000 vendas feitas pela Amazon.
+Dados de 9.994 vendas feitas pela SuperStore.
 
-Vendas realizadas nos Estados Unidos, Canadá, Índia, Reino Unido e Austrália.
+Vendas realizadas nos Estados Unidos.
 
-Os dados analisados correspondem ao período de 2020 a 2024.
+Os dados analisados correspondem ao período de 2014 a 2018.
 
 # Estratégia da solução
 
