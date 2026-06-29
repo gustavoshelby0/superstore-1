@@ -23,6 +23,7 @@ Os dados analisados correspondem ao período de 2014 a 2018.
 O método Fato-Dimensão foi usado para desenvolver a análise de dados.
 
 
+
 # Analise Descritiva
 # Passo 1: Resumir o contexto em uma pergunta aberta
 
