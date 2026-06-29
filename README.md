@@ -58,7 +58,9 @@ As colunas foram agrupadas em dimensões comuns que fornecem mais detalhes sobre
 
 **Controle:** OrderID. (Identificador único para rastreabilidade do registro).
 
-## Mind Map – Direcionadores de Análise
+## Combinação Fato-Dimensão  
+
+Mind Map – Direcionadores de Análise
 
 Para orientar a exploração dos dados, mesmo sendo um analista novo no setor, foram mapeados os seguintes grupos de perguntas:
 
@@ -75,39 +77,15 @@ Quantidade de Pedidos por Data e Produto
 Quantidade de Pedidos por Data e Clientes
 Quantidade de Pedidos por Data de Envio e Tier de Preço
 
+# Escolha dos Gráficos 
+- [x]  Quantidade de Pedidos por Data (Mes) Gráfico de Linhas
+- [x]  Desenhar o gráfico de Quantidade de Clientes Únicos
+- [x]  Quantidade Pedidos por Cliente
+- [x]  Quantidade de Pedidos por Itens
+- [x]  Desenhar o gráfico de Distr. Pedidos por produto
 
-# Passo 5: Hipóteses Analíticas
-
-**H1:** Não existe a Lei de Pareto na Amazon. As categorias vendem de forma relativamente equilibrada.
-
-**H2:** Apenas duas categorias não apresentam vendas. As demais vendem de forma uniforme.
-
-**H3:** O faturamento por categoria é baixo na maior parte das categorias, mostrando que as receitas estão distribuídas entre diversos segmentos.
-
-**H4:** O lucro de muitas categorias é negativo, indicando que os custos de tráfego e aquisição de clientes superam o ganho obtido por venda.
-
-H5: quais marcas tiveram maior participação nas vendas?
-
-Fiz no início apenas 4 Hipóteses para quebrar o gelo. Isso é uma análise exploratória do dataframe com base na pergunta fechada que o Analista de Dados Sr. (Gustavo Shelby) me sugeriu.
-
-**Hipótese Inicial → Rodar Excel/Análise → Obter Insight → Questionar o Insight → Gerar Nova Hipótese → Rodar Nova Análise.**
-
-# Passo 6: Critérios de Priorização
-
-- **Critério 1:** Dados disponíveis.
-- **Critério 2:** Insights acionáveis.
-
-# Passo 7: Priorização das Hipóteses Analíticas
-
-**H1:** Não existe a Lei de Pareto na Amazon. As categorias vendem de forma relativamente equilibrada.
-
-**H2:** Apenas duas categorias não apresentam vendas. As demais vendem de forma uniforme.
-
-**H3:** O faturamento por categoria é baixo na maior parte das categorias, mostrando que as receitas estão distribuídas entre diversos segmentos.
-
-**H4:** O lucro de muitas categorias é negativo, indicando que os custos de tráfego e aquisição de clientes superam o ganho obtido por venda.
-
-H5: quais marcas tiveram maior participação nas vendas?
+# Painel Macro-Micro
+https://img.notionusercontent.com/s3/prod-files-secure%2F2b76fb90-3276-8107-9a2b-0003db8f3f1b%2F559e753e-ca94-4d58-97e5-2cf9018ed757%2FCapturar.png/size/w=2000?exp=1782695552&sig=WhAahVMGwk-4q-j_K8-f3v_bZCRHuSz-Lx-xrUz4v6k&imgBuildSrc=presignImageUrl&id=38e6fb90-3276-8076-b420-e1499e5d1c32&table=block&userId=2cdd872b-594c-8197-aa3d-0002004cefb4&mtd=com
 
 # Insights da análise
 
