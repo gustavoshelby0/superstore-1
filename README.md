@@ -4,7 +4,7 @@
 
 ### A SuperStore é uma rede de supermercados com várias unidades físicas espalhadas por todo o mundo, com o objetivo de fornecer alimentos e comercializar os mais diversos produtos para consumo.
 
-O time de gerentes da Superstore decidiu construir uma área de dados para facilitar as decisões da empresa relacionadas ao abastecimento de produtos das lojas e às vendas.
+O time de gerentes da SuperStore decidiu construir uma área de dados para facilitar as decisões da empresa relacionadas ao abastecimento de produtos das lojas e às vendas.
 
 Atualmente, os gerentes têm acesso a algumas planilhas com informações pontuais que auxiliam na tomada de decisão. No entanto, eles gostariam que todos os dados da empresa fossem integrados, de modo que cada área pudesse acompanhar os mesmos indicadores e utilizar uma fonte única de informação.
 
@@ -12,11 +12,9 @@ O time de dados desempenhará um papel importante na criação desses indicadore
 
 # Premissas da análise
 
-Dados de 9.994 vendas feitas pela SuperStore.
-
-Vendas realizadas nos Estados Unidos.
-
-Os dados analisados correspondem ao período de 2014 a 2018.
+- Dados de 9.994 vendas feitas pela SuperStore.
+- Vendas realizadas nos Estados Unidos.
+- Os dados analisados correspondem ao período de 2014 a 2018.
 
 # Estratégia da solução
 
@@ -28,7 +26,7 @@ O método Fato-Dimensão foi usado para desenvolver a análise de dados.
 
 As perguntas abertas são um tipo de demanda muito comum em análise de dados nas quais a demanda possui N possíveis soluções e cabe ao analista de dados avaliar as possibilidades e escolher a alternativa com o maior retorno e o menor esforço possível. Para essa análise, foi definida a seguinte pergunta aberta:
 
-Como estão as vendas da SuperStore? A empresa está dando lucro? Há um crescimento no número de clientes e compras ao longo do tempo?
+*Como estão as vendas da SuperStore? A empresa está dando lucro? Há um crescimento no número de clientes e compras ao longo do tempo?*
 
 ## Passo 2: Transformar pergunta aberta em fechada
 
@@ -36,7 +34,7 @@ As perguntas fechadas são um tipo de demanda muito comum na área de análise d
 
 Para essa análise, foi definida a seguinte pergunta fechada:
 
-**Pergunta Fechada:** Faça uma análise das vendas da Superstore, veja qual categoria está dentro da lei de Pareto (80-20), como estão o número de clientes, o número de pedidos, ele está aumentando? Estagnou? Quais categorias não trazem retorno para a Superstore? Faça a análise com o gráfico de Pareto.
+**Pergunta Fechada:** Faça uma análise das vendas da SuperStore, veja qual categoria está dentro da lei de Pareto (80-20), como estão o número de clientes, o número de pedidos, ele está aumentando? Estagnou? Quais categorias não trazem retorno para a SuperStore? Faça a análise com o gráfico de Pareto.
 
 ## Passo 3: Definição da Coluna Fato
 
@@ -89,7 +87,7 @@ Para orientar a exploração dos dados, mesmo sendo um analista novo no setor, f
 
 A parte de estruturação foi baseada na metodologia do Meigarom Lopes (Data Scientist Sr.). Foi usado para a matriz de RFM a estrutura criada pela G4 Educação, utilizando os grupos e a forma que ela segmenta os clientes por recência, monetização e frequência.
 
-https://g4business.com/blog/o-que-e-matriz-rfm
+[https://g4business.com/blog/o-que-e-matriz-rfm](https://g4business.com/blog/o-que-e-matriz-rfm)
 
 # Insights da análise
 
@@ -136,223 +134,45 @@ https://g4business.com/blog/o-que-e-matriz-rfm
 
 **Conclusão direta:** Seu time de aquisição está gastando dinheiro em Janeiro para atrair clientes que não valem a pena. Aumente o investimento em Dezembro e reduza drasticamente em Janeiro. O retorno sobre o investimento (ROI) será muito maior.
 
-
-Simulação de ROI: O antes e o depois da análise
+# Simulação de ROI: O antes e o depois da análise
 
 Vou simular o que acontece se a SuperStore investir R$ 100 milhões em marketing de duas formas diferentes: uma sem a análise (gastando com todo mundo) e outra seguindo exatamente o que a Coorte e o RFM revelaram.
 
-Cenário 1 (Sem a análise – jeito antigo):
+## Cenário 1 (Sem a análise – jeito antigo)
+
 A empresa pega R$ 100 milhões e faz o seguinte:
 
-Manda ofertas para todos os clientes (Campeões, Risco, Fies, Perdidos, etc.).
+- Manda ofertas para **todos os clientes** (Campeões, Risco, Fies, Perdidos, etc.).
+- Manda ofertas **todos os meses** (janeiro, maio, agosto... inclusive nos meses onde a coorte mostrou que a recompra é ZERO).
+- Tenta reativar os clientes em **60 dias** (achando que eles sumiram, mas na verdade eles só compram de 6 em 6 meses).
 
-Manda ofertas todos os meses (janeiro, maio, agosto... inclusive nos meses onde a coorte mostrou que a recompra é ZERO).
+**Resultado desse jeito:** A maior parte desse dinheiro é desperdiçada com clientes que não vão comprar de jeito nenhum naquele mês, ou com clientes que já comprariam sozinhos (Campeões). É dinheiro jogado fora.
 
-Tenta reativar os clientes em 60 dias (achando que eles sumiram, mas na verdade eles só compram de 6 em 6 meses).
+## Cenário 2 (Com a análise – jeito novo que os dados pedem)
 
-Resultado desse jeito: A maior parte desse dinheiro é desperdiçada com clientes que não vão comprar de jeito nenhum naquele mês, ou com clientes que já comprariam sozinhos (Campeões). É dinheiro jogado fora.
-
-Cenário 2 (Com a análise – jeito novo que os dados pedem):
 A empresa pega os mesmos R$ 100 milhões, mas agora faz 3 mudanças:
 
-Corta 100% dos gastos nos meses de gelo (2, 5 e 8): Como ninguém compra nesses meses, a empresa para de mandar ofertas ali. Economia imediata: R$ 20 milhões (que viram lucro direto, sem precisar vender nada).
+1. **Corta 100% dos gastos nos meses de gelo (2, 5 e 8):** Como ninguém compra nesses meses, a empresa para de mandar ofertas ali. Economia imediata: R$ 20 milhões (que viram lucro direto, sem precisar vender nada).
 
-**Foca 100% da verba restante (R
-80
-m
-i
-l
-h
-o
-~
-e
-s
-)
-a
-p
-e
-n
-a
-s
-n
-o
-s
-s
-e
-g
-m
-e
-n
-t
-o
-s
-"
-R
-i
-s
-c
-o
-"
-e
-"
-F
-i
-e
-s
-"
-:
-∗
-∗
-E
-s
-s
-e
-s
-d
-o
-i
-s
-g
-r
-u
-p
-o
-s
-j
-u
-n
-t
-o
-s
-m
-o
-v
-i
-m
-e
-n
-t
-a
-m
-R
-80milh 
-o
-~
- es)apenasnossegmentos"Risco"e"Fies":∗∗EssesdoisgruposjuntosmovimentamR 12,13 bilhões (70% de todo o faturamento). A empresa para de gastar com "Campeões" (que já compram sozinhos) e com "Perdidos" (que não voltam mais).
+2. **Foca 100% da verba restante (R$ 80 milhões) apenas nos segmentos "Risco" e "Fies":** Esses dois grupos juntos movimentam R$ 12,13 bilhões (70% de todo o faturamento). A empresa para de gastar com "Campeões" (que já compram sozinhos) e com "Perdidos" (que não voltam mais).
 
-Muda a data da campanha de 60 dias para 150 dias (meses 10, 16 e 21): A coorte mostrou que os clientes voltam sozinhos nos meses 11, 17 e 22. Mandar a oferta 1 mês antes (mês 10) pega o cliente exatamente quando ele já está pensando em comprar.
+3. **Muda a data da campanha de 60 dias para 150 dias (meses 10, 16 e 21):** A coorte mostrou que os clientes voltam sozinhos nos meses 11, 17 e 22. Mandar a oferta 1 mês antes (mês 10) pega o cliente exatamente quando ele já está pensando em comprar.
 
-Resultado desse jeito:
+**Resultado desse jeito:**
 
-Com a oferta no momento certo, a taxa de recompra desses clientes sobe de 22% (natural) para 25% (apenas 3% de aumento – uma meta conservadora).
+- Com a oferta no momento certo, a taxa de recompra desses clientes sobe de 22% (natural) para 25% (apenas 3% de aumento – uma meta conservadora).
+- 3% de R$ 12,13 bilhões = **R$ 364 milhões em vendas extras**.
+- Somando a economia de R$ 20 milhões (que não foram gastos nos meses errados) com as R$ 364 milhões em vendas extras, o ganho total é de **R$ 384 milhões**.
 
-3% de R
-12
-,
-13
-b
-i
-l
-h
-o
-~
-e
-s
-=
-∗
-∗
-R
-12,13bilh 
-o
-~
- es=∗∗R 364 milhões em vendas extras**.
+## A conta final do ROI (o que a empresa ganha de verdade)
 
-Somando a economia de R
-20
-m
-i
-l
-h
-o
-~
-e
-s
-(
-q
-u
-e
-n
-a
-~
-o
-f
-o
-r
-a
-m
-g
-a
-s
-t
-o
-s
-n
-o
-s
-m
-e
-s
-e
-s
-e
-r
-r
-a
-d
-o
-s
-)
-c
-o
-m
-a
-s
-R
-20milh 
-o
-~
- es(quen 
-a
-~
- oforamgastosnosmeseserrados)comasR 364 milhões em vendas extras, o ganho total é de R$ 384 milhões.
-
-A conta final do ROI (o que a empresa ganha de verdade):
-
-Investimento: R$ 100 milhões (o mesmo de antes).
-
-Ganho total (economia + vendas extras): R$ 384 milhões.
-
-Lucro líquido sobre o investimento: R
-384
-m
-i
-l
-h
-o
-~
-e
-s
-−
-R
-384milh 
-o
-~
- es−R 100 milhões = R$ 284 milhões.
-
+- **Investimento:** R$ 100 milhões (o mesmo de antes).
+- **Ganho total (economia + vendas extras):** R$ 384 milhões.
+- **Lucro líquido sobre o investimento:** R$ 384 milhões - R$ 100 milhões = **R$ 284 milhões**.
 
 # Resultados
 
-**📥 Baixe o grafico no Excel com toda analise descritiva & cohort & rfm (clique no link e, em seguida, em "Download" ou "View raw"):**  
+**📥 Baixe o gráfico no Excel com toda análise descritiva & cohort & rfm (clique no link e, em seguida, em "Download" ou "View raw"):**  
 [https://docs.google.com/spreadsheets/d/1KP8CIZnk1aWoTs4k4oS6yJi1f8BWoemB/edit?usp=sharing&ouid=114029927907630112086&rtpof=true&sd=true](https://docs.google.com/spreadsheets/d/1KP8CIZnk1aWoTs4k4oS6yJi1f8BWoemB/edit?usp=sharing&ouid=114029927907630112086&rtpof=true&sd=true)
 
 # Próximos passos
