@@ -56,7 +56,7 @@ Pedido (Cabeçalho da Transação)	Order ID, Ship Mode (modo de frete/entrega)
 
 Item do Pedido (Linha/Detalhe do Fato)	Row ID (identificador único de cada linha do pedido), Sales (valor da venda), Quantity (quantidade), Discount (desconto aplicado), Profit (lucro)
 
-## Passo 6: Combinação Fato-Dimensão  
+# Passo 5: Combinação Fato-Dimensão  
 
 Mind Map – Direcionadores de Análise
 
@@ -86,7 +86,7 @@ Quantidade de Pedidos por Data e Clientes
 
 Quantidade de Pedidos por Data de Envio e Tier de Preço
 
-## Passo 7: Escolha dos Gráficos 
+# Passo 6: Escolha dos Gráficos 
 - [x]  Quantidade de Pedidos por Data (Mes) Gráfico de Linhas
  
 - [x]  Desenhar o gráfico de Quantidade de Clientes Únicos
@@ -97,7 +97,7 @@ Quantidade de Pedidos por Data de Envio e Tier de Preço
 
 - [x]  Desenhar o gráfico de Distr. Pedidos por produto
 
-## Passo 8: Painel Macro-Micro
+# Passo 7: Painel Macro-Micro
 https://img.notionusercontent.com/s3/prod-files-secure%2F2b76fb90-3276-8107-9a2b-0003db8f3f1b%2F559e753e-ca94-4d58-97e5-2cf9018ed757%2FCapturar.png/size/w=2000?exp=1782695552&sig=WhAahVMGwk-4q-j_K8-f3v_bZCRHuSz-Lx-xrUz4v6k&imgBuildSrc=presignImageUrl&id=38e6fb90-3276-8076-b420-e1499e5d1c32&table=block&userId=2cdd872b-594c-8197-aa3d-0002004cefb4&mtd=com
 
 # Insights da análise
