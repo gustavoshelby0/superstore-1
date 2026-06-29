@@ -44,19 +44,17 @@ O Fato é a coluna de interesse que representa o ponto focal da análise. Nesse 
 
 As colunas foram agrupadas em dimensões comuns que fornecem mais detalhes sobre o Fato que será analisado. Foram organizadas as seguintes dimensões:
 
-**Tempo:** OrderDate. (Base cronológica para análises de sazonalidade e tendências).
 
-**Produto e Marca:** ProductID, ProductName, Category, Brand. (Detalhamento do item vendido para análise de portfólio e desempenho por categoria).
+Tempo (Datas do Pedido e Envio)	Order Date, Ship Date
+(a partir delas, pode-se extrair: order_year, order_month, order_quarter, ship_year, ship_month)
 
-**Cliente e Vendedor:** CustomerID, CustomerName, SellerID. (Identificação das partes envolvidas na transação).
+Cliente (Quem Comprou)	Customer ID, Customer Name, Segment, Country, City, State, Postal Code, Region
 
-**Valores e Custos:** Quantity, UnitPrice, Discount, Tax, ShippingCost, TotalAmount. (Métricas financeiras da venda; TotalAmount é a métrica central de faturamento).
+Produto (O que Foi Vendido)	Product ID, Category, Sub-Category, Product Name
 
-**Pagamento e Status:** PaymentMethod, OrderStatus. (OrderStatus é a variável-alvo para classificação do resultado do pedido).
+Pedido (Cabeçalho da Transação)	Order ID, Ship Mode (modo de frete/entrega)
 
-**Localização:** City, State, Country. (Base geográfica para análises regionais de desempenho).
-
-**Controle:** OrderID. (Identificador único para rastreabilidade do registro).
+Item do Pedido (Linha/Detalhe do Fato)	Row ID (identificador único de cada linha do pedido), Sales (valor da venda), Quantity (quantidade), Discount (desconto aplicado), Profit (lucro)
 
 ## Passo 6: Combinação Fato-Dimensão  
 
