@@ -89,6 +89,8 @@ Para orientar a exploração dos dados, mesmo sendo um analista novo no setor, f
 
 A parte de estruturação foi baseada na metodologia do Meigarom Lopes (Data Scientist Sr.). Foi usado para a matriz de RFM a estrutura criada pela G4 Educação, utilizando os grupos e a forma que ela segmenta os clientes por recência, monetização e frequência.
 
+# Insights da análise
+
 ## 1. O grande mal-entendido do Churn
 
 **O dado:** 89% dos clientes somem no 1º mês.
@@ -131,8 +133,6 @@ A parte de estruturação foi baseada na metodologia do Meigarom Lopes (Data Sci
 **O que realmente significa:** Clientes atraídos em épocas de promoção/fim de ano são 4 vezes mais fiéis do que clientes atraídos em Janeiro (mês de ressaca financeira pós-festas).
 
 **Conclusão direta:** Seu time de aquisição está gastando dinheiro em Janeiro para atrair clientes que não valem a pena. Aumente o investimento em Dezembro e reduza drasticamente em Janeiro. O retorno sobre o investimento (ROI) será muito maior.
-
-# Insights da análise
 
 # Resultados
 
