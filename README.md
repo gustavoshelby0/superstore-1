@@ -138,8 +138,8 @@ https://g4business.com/blog/o-que-e-matriz-rfm
 
 # Resultados
 
-**📥 Baixe a apresentação em PowerPoint (clique no link e, em seguida, em "Download" ou "View raw"):**  
-[https://docs.google.com/presentation/d/1NhQ-8F8iABrALSBeC_FBwQPg6H6-_DK8/edit?usp=sharing&ouid=114029927907630112086&rtpof=true&sd=true](https://docs.google.com/presentation/d/1NhQ-8F8iABrALSBeC_FBwQPg6H6-_DK8/edit?usp=sharing&ouid=114029927907630112086&rtpof=true&sd=true)
+**📥 Baixe o grafico no Excel com toda analise descritiva & cohort & rfm (clique no link e, em seguida, em "Download" ou "View raw"):**  
+[https://docs.google.com/spreadsheets/d/1KP8CIZnk1aWoTs4k4oS6yJi1f8BWoemB/edit?usp=sharing&ouid=114029927907630112086&rtpof=true&sd=true](https://docs.google.com/spreadsheets/d/1KP8CIZnk1aWoTs4k4oS6yJi1f8BWoemB/edit?usp=sharing&ouid=114029927907630112086&rtpof=true&sd=true)
 
 # Próximos passos
 
