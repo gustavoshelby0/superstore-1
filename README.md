@@ -88,9 +88,13 @@ Quantidade de Pedidos por Data de Envio e Tier de Preço
 
 ## Passo 7: Escolha dos Gráficos 
 - [x]  Quantidade de Pedidos por Data (Mes) Gráfico de Linhas
+ 
 - [x]  Desenhar o gráfico de Quantidade de Clientes Únicos
+
 - [x]  Quantidade Pedidos por Cliente
+
 - [x]  Quantidade de Pedidos por Itens
+
 - [x]  Desenhar o gráfico de Distr. Pedidos por produto
 
 ## Passo 8: Painel Macro-Micro
