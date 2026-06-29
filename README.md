@@ -136,6 +136,220 @@ https://g4business.com/blog/o-que-e-matriz-rfm
 
 **Conclusão direta:** Seu time de aquisição está gastando dinheiro em Janeiro para atrair clientes que não valem a pena. Aumente o investimento em Dezembro e reduza drasticamente em Janeiro. O retorno sobre o investimento (ROI) será muito maior.
 
+
+Simulação de ROI: O antes e o depois da análise
+
+Vou simular o que acontece se a SuperStore investir R$ 100 milhões em marketing de duas formas diferentes: uma sem a análise (gastando com todo mundo) e outra seguindo exatamente o que a Coorte e o RFM revelaram.
+
+Cenário 1 (Sem a análise – jeito antigo):
+A empresa pega R$ 100 milhões e faz o seguinte:
+
+Manda ofertas para todos os clientes (Campeões, Risco, Fies, Perdidos, etc.).
+
+Manda ofertas todos os meses (janeiro, maio, agosto... inclusive nos meses onde a coorte mostrou que a recompra é ZERO).
+
+Tenta reativar os clientes em 60 dias (achando que eles sumiram, mas na verdade eles só compram de 6 em 6 meses).
+
+Resultado desse jeito: A maior parte desse dinheiro é desperdiçada com clientes que não vão comprar de jeito nenhum naquele mês, ou com clientes que já comprariam sozinhos (Campeões). É dinheiro jogado fora.
+
+Cenário 2 (Com a análise – jeito novo que os dados pedem):
+A empresa pega os mesmos R$ 100 milhões, mas agora faz 3 mudanças:
+
+Corta 100% dos gastos nos meses de gelo (2, 5 e 8): Como ninguém compra nesses meses, a empresa para de mandar ofertas ali. Economia imediata: R$ 20 milhões (que viram lucro direto, sem precisar vender nada).
+
+**Foca 100% da verba restante (R
+80
+m
+i
+l
+h
+o
+~
+e
+s
+)
+a
+p
+e
+n
+a
+s
+n
+o
+s
+s
+e
+g
+m
+e
+n
+t
+o
+s
+"
+R
+i
+s
+c
+o
+"
+e
+"
+F
+i
+e
+s
+"
+:
+∗
+∗
+E
+s
+s
+e
+s
+d
+o
+i
+s
+g
+r
+u
+p
+o
+s
+j
+u
+n
+t
+o
+s
+m
+o
+v
+i
+m
+e
+n
+t
+a
+m
+R
+80milh 
+o
+~
+ es)apenasnossegmentos"Risco"e"Fies":∗∗EssesdoisgruposjuntosmovimentamR 12,13 bilhões (70% de todo o faturamento). A empresa para de gastar com "Campeões" (que já compram sozinhos) e com "Perdidos" (que não voltam mais).
+
+Muda a data da campanha de 60 dias para 150 dias (meses 10, 16 e 21): A coorte mostrou que os clientes voltam sozinhos nos meses 11, 17 e 22. Mandar a oferta 1 mês antes (mês 10) pega o cliente exatamente quando ele já está pensando em comprar.
+
+Resultado desse jeito:
+
+Com a oferta no momento certo, a taxa de recompra desses clientes sobe de 22% (natural) para 25% (apenas 3% de aumento – uma meta conservadora).
+
+3% de R
+12
+,
+13
+b
+i
+l
+h
+o
+~
+e
+s
+=
+∗
+∗
+R
+12,13bilh 
+o
+~
+ es=∗∗R 364 milhões em vendas extras**.
+
+Somando a economia de R
+20
+m
+i
+l
+h
+o
+~
+e
+s
+(
+q
+u
+e
+n
+a
+~
+o
+f
+o
+r
+a
+m
+g
+a
+s
+t
+o
+s
+n
+o
+s
+m
+e
+s
+e
+s
+e
+r
+r
+a
+d
+o
+s
+)
+c
+o
+m
+a
+s
+R
+20milh 
+o
+~
+ es(quen 
+a
+~
+ oforamgastosnosmeseserrados)comasR 364 milhões em vendas extras, o ganho total é de R$ 384 milhões.
+
+A conta final do ROI (o que a empresa ganha de verdade):
+
+Investimento: R$ 100 milhões (o mesmo de antes).
+
+Ganho total (economia + vendas extras): R$ 384 milhões.
+
+Lucro líquido sobre o investimento: R
+384
+m
+i
+l
+h
+o
+~
+e
+s
+−
+R
+384milh 
+o
+~
+ es−R 100 milhões = R$ 284 milhões.
+
+
 # Resultados
 
 **📥 Baixe o grafico no Excel com toda analise descritiva & cohort & rfm (clique no link e, em seguida, em "Download" ou "View raw"):**  
