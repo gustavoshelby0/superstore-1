@@ -89,6 +89,8 @@ Para orientar a exploração dos dados, mesmo sendo um analista novo no setor, f
 
 A parte de estruturação foi baseada na metodologia do Meigarom Lopes (Data Scientist Sr.). Foi usado para a matriz de RFM a estrutura criada pela G4 Educação, utilizando os grupos e a forma que ela segmenta os clientes por recência, monetização e frequência.
 
+https://g4business.com/blog/o-que-e-matriz-rfm
+
 # Insights da análise
 
 ## 1. O grande mal-entendido do Churn
