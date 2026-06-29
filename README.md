@@ -191,10 +191,14 @@ Conclusão direta: Seu time de aquisição está gastando dinheiro em Janeiro pa
 
 # Próximos passos
 
-Entrar em contato com o engenheiro de dados para entender as fontes de dados da empresa e verificar se os dados coletados estão íntegros e consistentes.
+Passo 1 – Recalcular a segmentação RFM substituindo a coluna "Monetização" pela coluna "Profit" (Lucro): Os dados atuais de monetização mostram que Risco e Fies faturam R$ 12,13 bi. Porém, o dataset contém a coluna Discount e Profit. É necessário verificar se esses segmentos mantêm a liderança quando a métrica é lucro líquido, ou se os descontos concedidos corroem essa vantagem.
 
-Realizar uma auditoria na base de dados para identificar possíveis falhas de coleta, processamento, integração ou modelagem que possam estar comprometendo as análises.
+Passo 2 – Cruzar a lista de produtos/categorias do Pareto (80/20) com os segmentos RFM: Os dados de vendas estão detalhados por Category e Sub-Category. Deve-se identificar quais categorias estão no topo do Pareto para o segmento "Risco" e quais estão no topo para o segmento "Fies". Se houver divergência, a estratégia de estoque e cross-sell deve ser segmentada por perfil de cliente.
 
-Comunicar o CEO e a gerência sobre os problemas identificados, destacando que os dados atuais podem não refletir a realidade do negócio.
+Passo 3 – Calcular o tempo médio entre compras (intervalo) para os segmentos "Risco" e "Fies": A coorte mostra picos de recompra nos meses 11, 17 e 22. Deve-se calcular, para cada Customer ID desses segmentos, a mediana dos dias entre uma compra e outra. Se a mediana for consistente com 150-180 dias, a janela de reativação deve ser ajustada para D+150 (e não D+60 ou D+90).
 
-Recomendar que decisões estratégicas relevantes, como expansão, investimentos ou mudanças operacionais significativas, não sejam tomadas com base na base de dados atual até que sua qualidade e confiabilidade sejam validadas.
+Passo 4 – Medir o impacto do desconto (Discount) na retenção por coorte: Os dados contêm a coluna Discount. Deve-se segmentar a coorte de Janeiro/2014 entre clientes que receberam desconto > 15% e clientes com desconto ≤ 5%, e comparar as taxas de recompra no mês 11. Se a taxa for significativamente menor no grupo com alto desconto, a política de descontos deve ser revisada para aquisição de novos clientes.
+
+Passo 5 – Construir um comparativo de ROI por canal/janela temporal: Com base nas janelas de gelo (meses 2, 5, 8) e de ouro (meses 10, 16, 21), deve-se calcular o custo médio por contato (e-mail/SMS/WhatsApp) e o retorno médio por cliente reativado em cada período. O período que apresentar maior razão retorno/custo deve receber prioridade orçamentária nos próximos ciclos.
+
+
