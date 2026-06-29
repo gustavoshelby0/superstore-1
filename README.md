@@ -22,6 +22,8 @@ Os dados analisados correspondem ao período de 2014 a 2018.
 
 O método Fato-Dimensão foi usado para desenvolver a análise de dados.
 
+
+# Analise Descritiva
 # Passo 1: Resumir o contexto em uma pergunta aberta
 
 As perguntas abertas são um tipo de demanda muito comum em análise de dados nas quais a demanda possui N possíveis soluções e cabe ao analista de dados avaliar as possibilidades e escolher a alternativa com o maior retorno e o menor esforço possível. Para essa análise, foi definida a seguinte pergunta aberta:
