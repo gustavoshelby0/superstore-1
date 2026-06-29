@@ -58,6 +58,24 @@ As colunas foram agrupadas em dimensões comuns que fornecem mais detalhes sobre
 
 **Controle:** OrderID. (Identificador único para rastreabilidade do registro).
 
+## Mind Map – Direcionadores de Análise
+
+Para orientar a exploração dos dados, mesmo sendo um analista novo no setor, foram mapeados os seguintes grupos de perguntas:
+
+Quantidade de Pedidos por Data(Mes)
+Quantidade de Pedidos por Data de Envio(Mes)
+Quantidade de Pedidos por Tier de Preço (Baixo, Médio, Alto)
+Quantidade de Pedidos por Quantidade de Itens
+Quantidade de Pedidos por Tier de Desconto (Baixo, Médio, Alto)
+Quantidade de Pedidos por Produto
+Quantidade de Pedidos por Clientes
+Quantidade de Pedidos por Data e Tier de Preço (Baixo, Médio, Alto)
+Quantidade de Pedidos por Data e Quantidade de Itens
+Quantidade de Pedidos por Data e Produto
+Quantidade de Pedidos por Data e Clientes
+Quantidade de Pedidos por Data de Envio e Tier de Preço
+
+
 # Passo 5: Hipóteses Analíticas
 
 **H1:** Não existe a Lei de Pareto na Amazon. As categorias vendem de forma relativamente equilibrada.
