@@ -103,6 +103,15 @@ Quantidade de Pedidos por Data de Envio e Tier de Preço
 # Passo 7: Painel Macro-Micro
 https://img.notionusercontent.com/s3/prod-files-secure%2F2b76fb90-3276-8107-9a2b-0003db8f3f1b%2F559e753e-ca94-4d58-97e5-2cf9018ed757%2FCapturar.png/size/w=2000?exp=1782695552&sig=WhAahVMGwk-4q-j_K8-f3v_bZCRHuSz-Lx-xrUz4v6k&imgBuildSrc=presignImageUrl&id=38e6fb90-3276-8076-b420-e1499e5d1c32&table=block&userId=2cdd872b-594c-8197-aa3d-0002004cefb4&mtd=com
 
+# Analise de Cohort & RFM
+
+aa parte de estruturacao foi baseada na metodologia do meigarom lopes (data cientist sr)
+foi usado para a matrix de rfm a estrutura criada pela G4 Educacao. ultilizando os grupos e a forma que ela segmenta eles por recencia e monetizacao e frequencia
+
+
+
+Segmentação de Clientes (RFM) e Retenção (Cohort - SuperStore): Realizei análise de Cohort e RFM para mapear a jornada de compra. A coorte revelou perda de 89% da base no 1º mês, com comportamento de recompra irregular (meses com zero compra) ao longo do período. Apesar disso, 13,5% dos clientes permanecem ativos após 2 anos, formando um núcleo resiliente que, combinado à análise RFM, concentra a maior parte da receita nos clientes "Campeões" – direcionando esforços para reativação em janelas específicas (60 a 90 dias) e fidelização desse grupo prioritário.
+
 # Insights da análise
 
 # Resultados
