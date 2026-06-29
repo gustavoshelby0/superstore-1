@@ -26,7 +26,7 @@ O método Fato-Dimensão foi usado para desenvolver a análise de dados.
 
 As perguntas abertas são um tipo de demanda muito comum em análise de dados nas quais a demanda possui N possíveis soluções e cabe ao analista de dados avaliar as possibilidades e escolher a alternativa com o maior retorno e o menor esforço possível. Para essa análise, foi definida a seguinte pergunta aberta:
 
-Como estão as vendas da Amazon? A empresa tem muitos produtos bons ou é simplesmente um armazém de brechó?
+Como estão as vendas da SuperStore? a empresa esta dando lucro? a um crescimento no nmr de clientes e compras ao longo do tempo?
 
 # Passo 2: Transformar pergunta aberta em fechada
 
@@ -34,11 +34,11 @@ As perguntas fechadas são um tipo de demanda muito comum na área de análise d
 
 Para essa análise, foi definida a seguinte pergunta fechada:
 
-Pergunta Fechada: Faça um gráfico de Pareto mostrando todas as categorias da Amazon. Veja quais categorias pagam as contas da empresa e quais são simplesmente peso morto no estoque.
+Pergunta Fechada: faca uma analise das vendas da superstore, veja qual categoria esta dentro da lei de pareto, (80-20) como estao o nmr de clientes, o nmr de pedidos, ele esta aumentando? estagnou? quais categorias nao trazem retorno para a superstore? faca a analise com o grafico de pareto
 
 # Passo 3: Definição da Coluna Fato
 
-O Fato é a coluna de interesse que representa o ponto focal da análise. Nesse caso, a coluna "OrderID" mostra quantas vendas foram feitas, quando, e é feita uma contagem e segmentação por categoria...
+O Fato é a coluna de interesse que representa o ponto focal da análise. Nesse caso, a coluna "OrderID" mostra quantas vendas foram feitas, quando, é feita uma contagem i e feito uma segmentação por categoria...
 
 # Passo 4: Identificação das Dimensões
 
