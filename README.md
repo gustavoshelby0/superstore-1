@@ -109,7 +109,7 @@ aa parte de estruturacao foi baseada na metodologia do meigarom lopes (data cien
 foi usado para a matrix de rfm a estrutura criada pela G4 Educacao. ultilizando os grupos e a forma que ela segmenta eles por recencia e monetizacao e frequencia
 
 
-O Efeito "Furadeira" (O grande mal-entendido do Churn)
+(O grande mal-entendido do Churn)
 
 O dado: 89% dos clientes somem no 1º mês.
 
